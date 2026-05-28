@@ -1,5 +1,36 @@
 # John Konnayil Vincent — Portfolio
 
+## GitHub (first-time setup)
+
+This folder is a git repo with an initial commit on `main`. To create a new GitHub repo and push:
+
+1. Sign in (one time), in PowerShell:
+
+```powershell
+gh auth login
+```
+
+Choose: GitHub.com → HTTPS → Login with a web browser (follow the prompts).
+
+2. Create the repo and push:
+
+```powershell
+cd d:\Users\annaj\Portfolio-Website-JV-Cursor
+gh repo create portfolio-website-jv --public --source=. --remote=origin --push
+```
+
+Use `--private` instead of `--public` if you prefer. Change `portfolio-website-jv` to any repo name you like.
+
+**Without GitHub CLI:** create an empty repo at [github.com/new](https://github.com/new), then:
+
+```powershell
+cd d:\Users\annaj\Portfolio-Website-JV-Cursor
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git push -u origin main
+```
+
+---
+
 ## View the site (no npm required)
 
 1. Open File Explorer and go to:
