@@ -39,22 +39,27 @@
     {
       "name": "Stock Research Platform",
       "url": "https://stock-insights-hub.replit.app/",
-      "description": "Deep-dive stock research workspace"
+      "previewUrl": "https://stock-insights-hub.replit.app/stock/AAPL",
+      "description": "Deep-dive stock research workspace",
+      "image": "/images/tools/stock-insights-hub.png"
     },
     {
       "name": "Stock Watch List Super Charger",
       "url": "https://stock-watch-dashboard.replit.app/",
-      "description": "Enhanced watchlists and monitoring"
+      "description": "Enhanced watchlists and monitoring",
+      "image": "/images/tools/stock-watch-dashboard.png"
     },
     {
       "name": "Stock Screener Dashboard",
       "url": "https://stock-screen-dashboard.replit.app/",
-      "description": "Screen and filter investment ideas"
+      "description": "Screen and filter investment ideas",
+      "image": "/images/tools/stock-screen-dashboard.png"
     },
     {
       "name": "Macro Dashboard",
       "url": "https://macro-dashboard.replit.app/",
-      "description": "Macro indicators at a glance"
+      "description": "Macro indicators at a glance",
+      "image": "/images/tools/macro-dashboard.png"
     }
   ],
   "books": [
@@ -62,19 +67,22 @@
       "title": "Demystifying Crypto",
       "subtitle": "Kindle Direct Publishing · January 2026",
       "description": "Powering a borderless digital economy.",
-      "url": "https://www.amazon.com/Demystifying-Crypto-Powering-Borderless-Digital/dp/B0GJPLHT1S"
+      "url": "https://www.amazon.com/Demystifying-Crypto-Powering-Borderless-Digital/dp/B0GJPLHT1S",
+      "image": "/images/books/demystifying-crypto.jpg"
     },
     {
       "title": "Demystifying Bitcoin",
       "subtitle": "Kindle Direct Publishing · August 2025",
       "description": "Paving the way to global digital money.",
-      "url": "https://www.amazon.com/Demystifying-Bitcoin-Paving-Global-Digital/dp/B0FLD8ZMXJ"
+      "url": "https://www.amazon.com/Demystifying-Bitcoin-Paving-Global-Digital/dp/B0FLD8ZMXJ",
+      "image": "/images/books/demystifying-bitcoin.jpg"
     },
     {
       "title": "Profiting from Hedge Funds",
       "subtitle": "Wiley · 2013",
       "description": "Winning strategies from hedge fund 13F filings and coattail investing.",
-      "url": "https://www.amazon.com/Profiting-Hedge-Funds-Winning-Strategies-ebook/dp/B00FK0ITRG"
+      "url": "https://www.amazon.com/Profiting-Hedge-Funds-Winning-Strategies-ebook/dp/B00FK0ITRG",
+      "image": "/images/books/profiting-from-hedge-funds.jpg"
     }
   ],
   "experience": [
