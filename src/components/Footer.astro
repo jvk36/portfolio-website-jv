@@ -1,0 +1,41 @@
+---
+import site from "../data/site.json";
+const year = new Date().getFullYear();
+---
+
+<footer id="contact" class="scroll-mt-24 border-t border-sage/30 bg-white/60 py-12">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <h2 class="font-serif text-2xl font-semibold text-forest">Contact</h2>
+    <p class="mt-3 max-w-xl text-muted">
+      Reach out for speaking, collaboration, or questions about the books and tools.
+    </p>
+    <div class="mt-6 flex flex-wrap gap-4 text-sm font-medium">
+      <a href={`mailto:${site.email}`} class="text-forest underline-offset-4 hover:underline">
+        Email
+      </a>
+      <a
+        href={site.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-forest underline-offset-4 hover:underline"
+      >
+        LinkedIn
+      </a>
+      {
+        site.writing.map((w) => (
+          <a
+            href={w.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-forest underline-offset-4 hover:underline"
+          >
+            {w.name}
+          </a>
+        ))
+      }
+    </div>
+    <p class="mt-10 text-sm text-muted">
+      © {year} {site.name}. Replit apps may take a moment to wake on first visit.
+    </p>
+  </div>
+</footer>

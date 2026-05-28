@@ -1,0 +1,84 @@
+{
+  "name": "John Konnayil Vincent",
+  "location": "East Setauket, NY",
+  "tagline": "Author, investor, and builder of DIY research tools — from database patents to absolute-return investing.",
+  "email": "contact@example.com",
+  "linkedin": "https://www.linkedin.com/in/john-konnayil-vincent-039511/",
+  "about": "John Konnayil Vincent brings together engineering, intellectual property, and investing. He earned a BTech in Kerala and an MS in Information Systems from the University of Hawaiʻi, then spent roughly two decades in Bay Area software. His work led to four U.S. patents in database and query tooling. He later shifted into wealth management and publishes independent research on Seeking Alpha and Substack. Today he is the author of three books on hedge funds and digital assets, and he builds DIY investor dashboards for stock research, screening, watchlists, and macro context. AWS Cloud Practitioner certified (2023–2026).",
+  "writing": [
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/author/john-vincent",
+      "description": "Market analysis and stock research"
+    },
+    {
+      "name": "DIY — Absolute Returns",
+      "url": "https://diyabsolutereturns.substack.com/",
+      "description": "Research aimed at absolute returns, independent of market conditions"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Stock Research Platform",
+      "url": "https://stock-insights-hub.replit.app/",
+      "description": "Deep-dive stock research workspace"
+    },
+    {
+      "name": "Stock Watch List Super Charger",
+      "url": "https://stock-watch-dashboard.replit.app/",
+      "description": "Enhanced watchlists and monitoring"
+    },
+    {
+      "name": "Stock Screener Dashboard",
+      "url": "https://stock-screen-dashboard.replit.app/",
+      "description": "Screen and filter investment ideas"
+    },
+    {
+      "name": "Macro Dashboard",
+      "url": "https://macro-dashboard.replit.app/",
+      "description": "Macro indicators at a glance"
+    }
+  ],
+  "books": [
+    {
+      "title": "Profiting from Hedge Funds",
+      "subtitle": "Wiley Trading, 2013",
+      "description": "Winning strategies from hedge fund 13F filings and coattail investing.",
+      "url": "https://www.amazon.com/Profiting-Hedge-Funds-Winning-Strategies-ebook/dp/B00FK0ITRG"
+    },
+    {
+      "title": "Demystifying Bitcoin",
+      "subtitle": "Demystifying Web3 and Beyond",
+      "description": "A clear path through Bitcoin and the foundations of a global digital economy.",
+      "url": "https://www.amazon.com/Demystifying-Bitcoin-Paving-Global-Digital/dp/B0FLD8ZMXJ"
+    },
+    {
+      "title": "Demystifying Crypto",
+      "subtitle": "Demystifying Web3 and Beyond",
+      "description": "How crypto powers borderless digital finance and what investors should understand.",
+      "url": "https://www.amazon.com/Demystifying-Crypto-Powering-Borderless-Digital/dp/B0GJPLHT1S"
+    }
+  ],
+  "patents": [
+    {
+      "number": "US6108659",
+      "title": "Method and apparatus for executing stored code objects in a database",
+      "url": "https://www.google.com/patents/US6108659"
+    },
+    {
+      "number": "US7047249",
+      "title": "Method and apparatus for executing stored code objects in a database (continuation)",
+      "url": "https://www.google.com/patents/US7047249"
+    },
+    {
+      "number": "US7526468",
+      "title": "System and method for recursive path analysis of DBMS procedures",
+      "url": "https://www.google.com/patents/US7526468"
+    },
+    {
+      "number": "US8019750",
+      "title": "System and method for automatically generating database queries",
+      "url": "https://www.google.com/patents/US8019750"
+    }
+  ]
+}
