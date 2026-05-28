@@ -11,8 +11,13 @@ const year = new Date().getFullYear();
     </p>
     <div class="mt-6 flex flex-wrap gap-4 text-sm font-medium">
       <a href={`mailto:${site.email}`} class="text-forest underline-offset-4 hover:underline">
-        Email
+        {site.email}
       </a>
+      {"phone" in site && site.phone && (
+        <a href={`tel:${site.phone.replace(/[^\d+]/g, "")}`} class="text-forest underline-offset-4 hover:underline">
+          {site.phone}
+        </a>
+      )}
       <a
         href={site.linkedin}
         target="_blank"

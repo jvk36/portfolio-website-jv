@@ -1,20 +1,38 @@
 {
   "name": "John Konnayil Vincent",
   "location": "East Setauket, NY",
-  "tagline": "Author, investor, and builder of DIY research tools — from database patents to absolute-return investing.",
-  "email": "contact@example.com",
+  "tagline": "Software engineer and R&D veteran — database systems, investment tech, and AI/ML tools for DIY investors.",
+  "email": "JohnKonnayilVincent@gmail.com",
   "linkedin": "https://www.linkedin.com/in/john-konnayil-vincent-039511/",
-  "about": "John Konnayil Vincent brings together engineering, intellectual property, and investing. He earned a BTech in Kerala and an MS in Information Systems from the University of Hawaiʻi, then spent roughly two decades in Bay Area software. His work led to four U.S. patents in database and query tooling. He later shifted into wealth management and publishes independent research on Seeking Alpha and Substack. Today he is the author of three books on hedge funds and digital assets, and he builds DIY investor dashboards for stock research, screening, watchlists, and macro context. AWS Cloud Practitioner certified (2023–2026).",
+  "about": "Software Engineer and R&D veteran with 20+ years of experience in database systems and investment tech. Currently specializing in the AI/ML space, developing automated tools for DIY investors. Proven track record of taking complex software from architectural design to marketplace success.",
+  "skills": [
+    "Agile & Scrum",
+    "Python",
+    "JavaScript",
+    "PERN Stack",
+    "C++",
+    "AI/ML",
+    "Data Science",
+    "Hugging Face",
+    "Scala",
+    "Kotlin",
+    "Google Cloud",
+    "AWS",
+    "Apache Solr",
+    "Hadoop",
+    "KNIME",
+    "Git"
+  ],
   "writing": [
     {
       "name": "Seeking Alpha",
       "url": "https://seekingalpha.com/author/john-vincent",
-      "description": "Market analysis and stock research"
+      "description": "Quarterly series monitoring hedge fund activity of super investors."
     },
     {
       "name": "DIY — Absolute Returns",
       "url": "https://diyabsolutereturns.substack.com/",
-      "description": "Research aimed at absolute returns, independent of market conditions"
+      "description": "Asymmetric investment opportunities and absolute returns through inefficiency, volatility, and momentum."
     }
   ],
   "tools": [
@@ -41,44 +59,136 @@
   ],
   "books": [
     {
-      "title": "Profiting from Hedge Funds",
-      "subtitle": "Wiley Trading, 2013",
-      "description": "Winning strategies from hedge fund 13F filings and coattail investing.",
-      "url": "https://www.amazon.com/Profiting-Hedge-Funds-Winning-Strategies-ebook/dp/B00FK0ITRG"
+      "title": "Demystifying Crypto",
+      "subtitle": "Kindle Direct Publishing · January 2026",
+      "description": "Powering a borderless digital economy.",
+      "url": "https://www.amazon.com/Demystifying-Crypto-Powering-Borderless-Digital/dp/B0GJPLHT1S"
     },
     {
       "title": "Demystifying Bitcoin",
-      "subtitle": "Demystifying Web3 and Beyond",
-      "description": "A clear path through Bitcoin and the foundations of a global digital economy.",
+      "subtitle": "Kindle Direct Publishing · August 2025",
+      "description": "Paving the way to global digital money.",
       "url": "https://www.amazon.com/Demystifying-Bitcoin-Paving-Global-Digital/dp/B0FLD8ZMXJ"
     },
     {
-      "title": "Demystifying Crypto",
-      "subtitle": "Demystifying Web3 and Beyond",
-      "description": "How crypto powers borderless digital finance and what investors should understand.",
-      "url": "https://www.amazon.com/Demystifying-Crypto-Powering-Borderless-Digital/dp/B0GJPLHT1S"
+      "title": "Profiting from Hedge Funds",
+      "subtitle": "Wiley · 2013",
+      "description": "Winning strategies from hedge fund 13F filings and coattail investing.",
+      "url": "https://www.amazon.com/Profiting-Hedge-Funds-Winning-Strategies-ebook/dp/B00FK0ITRG"
     }
+  ],
+  "experience": [
+    {
+      "title": "Sole Proprietor",
+      "organization": "Investment Research Venture",
+      "location": "East Setauket, NY",
+      "dates": "2011 – Present",
+      "description": "Architected an end-to-end AI/ML pipeline to analyze SEC 13F filings. Built a custom LLM for quarterly 13F summaries and a multi-model prompting framework for company-specific investment theses. Designed performance-critical DIY investor tools focused on market inefficiency, volatility, and momentum."
+    },
+    {
+      "title": "Senior Software Architect (Director)",
+      "organization": "CA Inc.",
+      "location": "South San Francisco, CA",
+      "dates": "2006 – 2010",
+      "description": "Project management, research, and development of SQL Server Agent technologies in the CA Unicenter Database Performance Management Insight product suite."
+    },
+    {
+      "title": "Development Manager",
+      "organization": "CA Inc.",
+      "location": "Alameda, CA",
+      "dates": "1999 – 2005",
+      "description": "Project management, research, and development of database monitoring and SQL tuning components of the SQL-Station product suite."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "organization": "Platinum Technology Inc.",
+      "location": "San Francisco, CA",
+      "dates": "1995 – 1998",
+      "description": "Project management, research, and development of the Debugger and Source Control components of the SQL-Station product suite."
+    },
+    {
+      "title": "Principal Software Engineer",
+      "organization": "SQL Software Corporation",
+      "location": "South San Francisco, CA",
+      "dates": "1994",
+      "description": "Sole developer of SQL-Coder, sold to Platinum Technology three months after general availability."
+    },
+    {
+      "title": "Information Systems Consultant",
+      "organization": "Chemoil Corporation",
+      "location": "San Francisco, CA",
+      "dates": "1993",
+      "description": "Consultant for Chemoil's internal chemistry database."
+    },
+    {
+      "title": "Lecturer in Computer Science",
+      "organization": "Anjuman Engineering College",
+      "location": "Bhatkal, India",
+      "dates": "1991",
+      "description": ""
+    },
+    {
+      "title": "Software Engineer",
+      "organization": "Universal Microsystems",
+      "location": "Trivandrum, India",
+      "dates": "1990",
+      "description": ""
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "organization": "Amazon Web Services",
+      "dates": "2023",
+      "description": "",
+      "url": "https://www.credly.com/badges/48884763-b4fc-4b4d-bd15-96dc6b196faf/public_url"
+    },
+    {
+      "title": "Coursework — Project Management, AI/ML & Data Retrieval",
+      "organization": "University at Buffalo",
+      "dates": "2021 – 2022",
+      "description": ""
+    },
+    {
+      "title": "MS, Information & Computer Sciences",
+      "organization": "University of Hawaii at Mānoa",
+      "dates": "1993",
+      "description": ""
+    },
+    {
+      "title": "BTech, Computer Science",
+      "organization": "University of Calicut, Thrissur",
+      "dates": "1990",
+      "description": ""
+    }
+  ],
+  "awards": [
+    "Database Tuning & Performance presentations at CA-World (2000–2002)",
+    "Optimizing Database Code Development presentations at Platforum (1999)",
+    "Platinum Technology Team Performance Award (1997)"
   ],
   "patents": [
     {
-      "number": "US6108659",
-      "title": "Method and apparatus for executing stored code objects in a database",
-      "url": "https://www.google.com/patents/US6108659"
-    },
-    {
-      "number": "US7047249",
-      "title": "Method and apparatus for executing stored code objects in a database (continuation)",
-      "url": "https://www.google.com/patents/US7047249"
+      "number": "US8019750",
+      "year": "2011",
+      "title": "System and method for automatically generating database queries",
+      "url": "https://www.google.com/patents/US8019750"
     },
     {
       "number": "US7526468",
+      "year": "2009",
       "title": "System and method for recursive path analysis of DBMS procedures",
       "url": "https://www.google.com/patents/US7526468"
     },
     {
-      "number": "US8019750",
-      "title": "System and method for automatically generating database queries",
-      "url": "https://www.google.com/patents/US8019750"
+      "number": "US7047249",
+      "year": "2006",
+      "title": "Continuation application with broader claims on US6108659",
+      "url": "https://www.google.com/patents/US7047249"
+    },
+    {
+      "number": "US6108659",
+      "year": "2000",
+      "title": "Methods and apparatus for executing stored code objects in a database",
+      "url": "https://www.google.com/patents/US6108659"
     }
   ]
 }

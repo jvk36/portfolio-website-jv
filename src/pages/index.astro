@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
 import Section from "../components/Section.astro";
+import Skills from "../components/Skills.astro";
+import Experience from "../components/Experience.astro";
 import Footer from "../components/Footer.astro";
 import site from "../data/site.json";
 ---
@@ -16,7 +18,9 @@ import site from "../data/site.json";
       <p class="max-w-3xl text-lg leading-relaxed text-charcoal/90">{site.about}</p>
     </Section>
 
-    <Section id="writing" title="Writing" lead="Independent research for DIY investors.">
+    <Skills />
+
+    <Section id="writing" title="Writing" lead="Investing-focused publications, 2011 – present.">
       <div class="grid gap-6 sm:grid-cols-2">
         {
           site.writing.map((item) => (
@@ -92,7 +96,8 @@ import site from "../data/site.json";
           <thead class="border-b border-sage/40 bg-canvas">
             <tr>
               <th class="px-4 py-3 font-semibold text-forest sm:px-6">Patent</th>
-              <th class="hidden px-4 py-3 font-semibold text-forest sm:table-cell sm:px-6">Title</th>
+              <th class="hidden px-4 py-3 font-semibold text-forest sm:table-cell sm:px-6">Year</th>
+              <th class="hidden px-4 py-3 font-semibold text-forest lg:table-cell lg:px-6">Title</th>
               <th class="px-4 py-3 font-semibold text-forest sm:px-6"></th>
             </tr>
           </thead>
@@ -101,7 +106,8 @@ import site from "../data/site.json";
               site.patents.map((patent) => (
                 <tr class="border-b border-sage/20 last:border-0">
                   <td class="px-4 py-4 font-mono text-xs text-forest sm:px-6 sm:text-sm">{patent.number}</td>
-                  <td class="hidden px-4 py-4 text-muted sm:table-cell sm:px-6">{patent.title}</td>
+                  <td class="hidden px-4 py-4 text-muted sm:table-cell sm:px-6">{patent.year}</td>
+                  <td class="hidden px-4 py-4 text-muted lg:table-cell lg:px-6">{patent.title}</td>
                   <td class="px-4 py-4 text-right sm:px-6">
                     <a
                       href={patent.url}
@@ -120,6 +126,8 @@ import site from "../data/site.json";
         </table>
       </div>
     </Section>
+
+    <Experience />
   </main>
   <Footer />
 </Layout>
